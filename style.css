@@ -1,6 +1,9 @@
 body {
     background-color: hsl(218, 23%, 16%);
     font-family: 'Manrope', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .main-box {
@@ -9,8 +12,6 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: auto;
-    margin-top: 100px;
     width: 90%;
     height:350px;
     border-radius: 10px;
@@ -62,7 +63,6 @@ p {
 @media (min-width: 500px) {
     
 .main-box {
-    margin-top: 100px;
     width: 500px;
     height:350px;
     border-radius: 10px;
